@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+    <title>Habla</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="js/index.js" defer></script>
+</head>
+
+<body>
+    <h1 id="titulo">TALKS</h1>
+
+    <div id="cajatexto">
+        A long , long time ago , in the prosperous town of Hamelin , in Germany , something very strange happened: one
+        morning, when its fat and satisfied inhabitants left their houses, they found the streets invaded by thousands
+        of mice that were prowling everywhere, devouring eagerly for grain from their overflowing barns and food from
+        their well-stocked pantries.No one was able to understand the cause of such an invasion, and what was even
+        worse, no one knew what to do to put an end to such a disturbing plague of mice . As much as they tried to
+        exterminate them or, at least, chase them away, it seemed that more and more mice were coming to the city. Such
+        was the number of mice that, day after day, took over the streets and houses, that even the cats themselves fled
+        in fear.
+    </div>
+
+    <div id="botones">
+        <button class="boton" id="btnInicio">Comenzar</button>
+        <button class="boton" id="btnParar">Terminar</button>
+        <label for="idioma">Idioma:</label>
+        <select id="idioma">
+            <option value="en-US">Inglés</option>
+            <option value="es-ES">Castellano</option>
+            <option value="fr-FR">Francés</option>
+        </select>
+    </div>
+    <div id="introducir_reproducir_texto">
+        <textarea id="textoTextArea" cols="50" rows="5"></textarea>
+        <br>
+        <button class="boton" id="btnReproducir">Reproducir</button>
+        <button class="boton" id="btnCancelar">Cancelar reprodución</button>
+    </div>
+    <div id="introducir_reproducir_palabra">
+        <label for="palabraReproducir">Palabra a reproducir:</label>
+        <input type="text" id="palabraReproducir" value="">
+        <button class="boton" id="btnReproducirPalabra">Reproducir Palabra</button>
+    </div>
+</body>
+
+</html>
