@@ -5,6 +5,8 @@ Se modifica la interfaz en el navegador y se establecen propiedades CSS<br>
 Limpieza y separación del código javascript del html.<br>
 Se añade alguna mejora al código y borran variables redundantes.<br>
 Se depura y añaden comentarios al archivo fuente proporcionado.<br>
+Pendiente depurar algunos errores de reconociento de voz en el marcado de las palabras reconocidas.<br>
+Pendiente inhabilitar cambio de idioma durante reproducción de una palabra.<br>  
 
 RECURSOS FORMATIVOS<br>
 https://www.youtube.com/watch?v=jIUW1_fzDAE<br>
